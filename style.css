@@ -10,7 +10,7 @@ section
 {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    max-width: 1165px;
     padding: 100px;
     display: flex;
     justify-content: space-between;
@@ -29,6 +29,11 @@ header
     align-items: center;
 }
 header .logo
+{
+    position: relative;
+    max-width: 80px;
+}
+header .adress
 {
     position: relative;
     max-width: 80px;
