@@ -10,12 +10,15 @@ section
 {
     position: relative;
     width: 100%;
-    min-height: 120vh;
+    min-height: 800px;
     padding: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right, white, blue);
+    background-image: linear-gradient(to left, white, blue);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 header
 {
@@ -27,11 +30,12 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 header .logo
 {
-    position: relative;
-    max-width: 1500px; 
+    position: absolute;
+    max-width: 600px; 
 }
 header ul
 {
@@ -94,10 +98,12 @@ header ul li a{
     justify-content: flex-end;
     padding-right: 100px;
     margin-top: 200px;
+    
 }
 .content .imgBox img
 {   
     max-width: 200px;
+    
 }
 .thumb
 {
@@ -132,6 +138,7 @@ header ul li a{
     height: 100%;
     background: #00a6ff;
     clip-path: circle(600px at right 800px);
+    
 }
 
 .container {
