@@ -10,7 +10,7 @@ section
 {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 120vh;
     padding: 100px;
     display: flex;
     justify-content: space-between;
@@ -43,7 +43,7 @@ header ul li
     list-style: none;
 }
 header ul li a{
-    display: inline-block;
+    display: inline-flex;
     color: rgb(0, 238, 255);
     font-weight: 80;
     margin-left: 20px;
