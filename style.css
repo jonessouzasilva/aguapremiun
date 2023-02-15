@@ -31,7 +31,7 @@ header
 header .logo
 {
     position: relative;
-    max-width: 100px; 
+    max-width: 200px; 
 }
 header ul
 {
@@ -44,14 +44,14 @@ header ul li
 }
 header ul li a{
     display: inline-block;
-    color: rgb(0, 81, 255);
+    color: rgb(0, 238, 255);
     font-weight: 80;
     margin-left: 20px;
     text-decoration: none;
 }
 .content
 {
-    position: relative;
+    position: absolute;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -66,7 +66,7 @@ header ul li a{
 {
     color: rgb(34, 0, 255);
     font-size: 2.5em;
-    line-height: 1.4em;
+    line-height: 1em;
     font-weight: 50;
 }
 .content .textBox h2 span
@@ -74,10 +74,6 @@ header ul li a{
     color: rgb(13, 0, 255);
     font-size: 1.2em;
     font-weight: 500;
-}
-.content .textBox p
-{
-    color: darkblue;
 }
 .content .textBox a
 {
@@ -96,8 +92,8 @@ header ul li a{
     width: 50px;
     display: flex;
     justify-content: flex-end;
-    padding-right: 50px;
-    margin-top: 50px;
+    padding-right: 100px;
+    margin-top: 200px;
 }
 .content .imgBox img
 {   
