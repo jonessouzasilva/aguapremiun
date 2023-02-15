@@ -72,18 +72,18 @@ header ul li a{
 .content .textBox h2 span
 {
     color: rgb(13, 0, 255);
-    font-size: 1.2em;
-    font-weight: 500;
+    font-size: 3.5em;
+    font-weight: 100;
 }
 .content .textBox a
 {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 300px;
     padding: 8px 20px;
     background: #0062ff;
     color: #fff;
-    border-radius: 40px;
-    font-weight: 300;
+    border-radius: 20px;
+    font-weight: 100;
     letter-spacing: 1px;
     text-decoration: none;
 }
