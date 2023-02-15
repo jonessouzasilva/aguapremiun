@@ -30,8 +30,8 @@ header
 }
 header .logo
 {
-    position: relative;
-    max-width: 80px;
+    width: 100%;
+    
 }
 header .adress
 {
