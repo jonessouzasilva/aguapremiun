@@ -10,7 +10,7 @@ section
 {
     position: relative;
     width: 100%;
-    max-width: 1165px;
+    min-height: 100vh;
     padding: 100px;
     display: flex;
     justify-content: space-between;
@@ -30,13 +30,8 @@ header
 }
 header .logo
 {
-    width: 100%;
-    
-}
-header .adress
-{
     position: relative;
-    max-width: 50px;
+    max-width: 80px; 
 }
 header ul
 {
@@ -50,7 +45,7 @@ header ul li
 header ul li a{
     display: inline-block;
     color: blue;
-    font-weight: 400px;
+    font-weight: 400;
     margin-left: 40px;
     text-decoration: none;
 }
@@ -69,7 +64,7 @@ header ul li a{
 }
 .content .textBox h2
 {
-    color: rgb(0, 225, 255);
+    color: rgb(0, 145, 255);
     font-size: 4em;
     line-height: 1.4em;
     font-weight: 500;
@@ -106,11 +101,9 @@ header ul li a{
 }
 .content .imgBox img
 {   
-    min-width: 280px;
-    max-width: 800px;
-    margin: auto;
+    max-width: 340px;
 }
-.imagens
+.thumb
 {
     position: absolute;
     left: 50%;
@@ -118,7 +111,7 @@ header ul li a{
     transform: translateX(-50%);
     display: flex;
 }
-.imagens li
+.thumb li
 {
     list-style: none;
     display: inline-block;
@@ -126,13 +119,34 @@ header ul li a{
     cursor: pointer;
     transition: 0.5s;
 }
-.imagens li:hover
+.thumb li:hover
 {
     transform: translateY(-15px);
 }
-.imagens li img
+.thumb li img
 {
     max-width: 60px;
+}
+.sci
+{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sci li
+{
+    list-style: none;
+}
+.sci li a
+{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(0);
 }
 
 .circle
@@ -142,7 +156,7 @@ header ul li a{
     left: 0;
     width: 100%;
     height: 100%;
-    background: #0077ff;
+    background: #007bff;
     clip-path: circle(600px at right 800px);
 }
 
