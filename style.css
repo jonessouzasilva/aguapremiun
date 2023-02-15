@@ -93,7 +93,7 @@ header ul li a{
 }
 .content .imgBox
 {
-    width: 300px;
+    width: 100px;
     display: flex;
     justify-content: flex-end;
     padding-right: 50px;
@@ -101,7 +101,7 @@ header ul li a{
 }
 .content .imgBox img
 {   
-    max-width: 340px;
+    max-width: 240px;
 }
 .thumb
 {
