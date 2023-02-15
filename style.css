@@ -15,7 +15,7 @@ section
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
+    background-image: linear-gradient(to right, white, blue);
 }
 header
 {
@@ -71,13 +71,13 @@ header ul li a{
 }
 .content .textBox h2 span
 {
-    color: rgb(0, 0, 255);
+    color: rgb(13, 0, 255);
     font-size: 1.2em;
     font-weight: 500;
 }
 .content .textBox p
 {
-    color: rgb(237, 100, 198);
+    color: darkblue;
 }
 .content .textBox a
 {
