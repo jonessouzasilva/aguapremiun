@@ -15,7 +15,7 @@ section
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to left, white, blue);
+    background-color: rgb(247, 247, 240);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -34,9 +34,14 @@ header
 }
 header .logo
 {
+    height: 100px;
+    height: 100px;
+    border-radius: 100%;
     position: absolute;
     max-width: 600px; 
+    border: 1px solid rgb(0, 255, 179);
 }
+
 header ul
 {
     position: relative;
@@ -48,13 +53,17 @@ header ul li
 }
 header ul li a{
     display: inline-flex;
-    color: rgb(0, 255, 30);
-    font-weight: 80;
-    margin-left: 20px;
+    color: rgb(27, 35, 28);
+    font-size: 20pt;
+    font-weight: 1000px;
+    margin-left: 100px;
     text-decoration: none;
 }
 .content
 {
+    font-weight: 1000px;
+    font-size: 15pt;
+    margin-left: 100px;
     position: absolute;
     width: 100%;
     display: flex;
@@ -68,7 +77,7 @@ header ul li a{
 }
 .content .textBox h2
 {
-    color: rgb(43, 71, 12);
+    color: rgb(34, 35, 32);
     font-size: 2.5em;
     line-height: 1em;
     font-weight: 50;
