@@ -118,7 +118,7 @@ header ul li a{
 {
     position: absolute;
     left: 50%;
-    bottom: 20px;
+    bottom: 50px;
     transform: translateX(-50%);
     display: flex;
 }
@@ -136,7 +136,7 @@ header ul li a{
 }
 .thumb li img
 {
-    max-width: 20px;
+    max-width: 50px;
 }
 .circle
 {
