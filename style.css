@@ -35,7 +35,7 @@ header
 header .logo
 {
     line-height: 1.6em;
-    height: 120px;
+    height: 110px;
     border-radius: 50%;
     position: absolute;
     max-width: 250px; 
@@ -56,7 +56,7 @@ header ul li a{
     color: rgb(27, 35, 28);
     font-size: 20pt;
     font-weight: 400px;
-    margin-left: 150px;
+    margin-left: 125px;
     text-decoration: none;
 }
 .content
