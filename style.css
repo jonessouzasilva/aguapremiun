@@ -34,7 +34,8 @@ header
 }
 header .logo
 {
-    height: 80px;
+    line-height: 1.6em;
+    height: 40px;
     border-radius: 50%;
     position: absolute;
     max-width: 300px; 
@@ -54,8 +55,8 @@ header ul li a{
     display: inline-flex;
     color: rgb(27, 35, 28);
     font-size: 20pt;
-    font-weight: 600px;
-    margin-left: 20px;
+    font-weight: 500px;
+    margin-left: 100px;
     text-decoration: none;
 }
 .content
@@ -71,15 +72,16 @@ header ul li a{
 }
 .content .textBox
 {
-    position: relative;
+    line-height: 1.1em;
+    position: center;
     max-width: 300px;
 }
 .content .textBox h2
 {
-    margin-left: 200px;
+    margin-left: 250px;
     color: rgb(34, 35, 32);
     font-size: 2.5em;
-    line-height: 1.5em;
+    line-height: 1.1em;
     font-weight: 20;
 }
 .content .textBox h2 span
