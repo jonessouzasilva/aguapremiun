@@ -80,7 +80,7 @@ header ul li a{
 }
 .content .textBox h2
 {
-    margin-left: 200px;
+    margin-left: 220px;
     color: rgb(34, 35, 32);
     font-size: 2.9em;
     line-height: 1.5em;
@@ -109,16 +109,17 @@ header ul li a{
 }
 .content .imgBox
 {
-    width: 50px;
+    width: 100px;
     display: flex;
     justify-content: flex-end;
     padding-right: 100px;
     margin-top: 100px;
-    
 }
+
 .content .imgBox img
 {   
-    max-width: 230px;
+
+    max-width: 150px;
     
 }
 .thumb
@@ -143,7 +144,7 @@ header ul li a{
 }
 .thumb li img
 {
-    max-width: 70px;
+    max-width: 100px;
 }
 .circle
 {
@@ -232,12 +233,13 @@ header ul li a{
 }
 
 .rodape {
-    margin-left: 10px;
+    text-align: left;
+    margin-left: 400px;
     color: rgb(34, 35, 32);
 }
 
 .assinatura
 {
-    margin-left: 235px;
+    margin-left: 10px;
     color: rgb(34, 35, 32);
 }
