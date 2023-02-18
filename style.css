@@ -231,20 +231,16 @@ header ul li a{
     color: black;
     background-color: white;
 }
-
-.patrocinios
-{
-    background-color: aliceblue);
-    margin-left: 150px;
-    margin-right: 150px;
-    background-size: cover;
-    background-position: center;
-}
-
 .rodape {
-    justify-content: center;
-    margin-left: 400px;
-    color: rgb(34, 35, 32);
+    background-position: 100%;
+    background-image: url(../aguapremiun/imagens/blue.jpg);
+    background-color: beige;
+    width: 460px;
+    padding: 10px;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
 }
 
 .assinatura
