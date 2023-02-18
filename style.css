@@ -240,13 +240,40 @@ header ul li a{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: beige;
-    width: 350px;
-    padding: 1px;
+    width: 300px;
+    padding: 10px;
     margin: auto;
     border: 5px solid gray;
     border-radius: 15px;
-    text-align: center;
+    text-align: right;
+    perspective: 300px;
     
+}
+.rodape__content
+{   
+    width: 200px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 600ms ease-in-out;
+}
+
+.rodape__front,
+.rodape__back
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.rodape__back
+{
+    transform: rotateY(180deg);
+}
+.rodape:hover .rodape__content
+{
+    transform: rotateY(180deg);
 }
 
 .assinatura
