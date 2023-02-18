@@ -265,7 +265,7 @@ header ul li a{
     width: 200px;
     height: 200px;
     position: absolute;
-    backface-visibility: hidden;
+    backface-visibility: visible;
 }
 .rodape__back
 {
