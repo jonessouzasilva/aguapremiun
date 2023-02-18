@@ -256,7 +256,7 @@ header ul li a{
     position: relative;
     transform-style: preserve-3d;
     transform: rotateY(0deg);
-    transition: transform 600ms ease-in-out;
+    transition: transform 3000ms ease-in-out;
 }
 
 .rodape__front,
