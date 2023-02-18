@@ -15,7 +15,7 @@ section
     display: flex;
     justify-content: right;
     align-items: center;
-    background-color: white);
+    background-color: aliceblue);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -96,7 +96,7 @@ header ul li a{
 }
 .content .textBox a
 {
-    margin-left: 100px;
+    margin-left: 200px;
     display: inline-block;
     margin-top: 420px;
     padding: 8px 20px;
