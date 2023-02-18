@@ -234,7 +234,7 @@ header ul li a{
     background-color: white;
 }
 .rodape {
-    font-size: larger;
+    font-size: medium;
     background-position: center center;
     background-image: url(../aguapremiun/imagens/blue.jpg);
     background-repeat: no-repeat;
@@ -245,7 +245,7 @@ header ul li a{
     margin: auto;
     border: 5px solid gray;
     border-radius: 15px;
-    text-align: right;
+    text-align: center;
     perspective: 300px;
     
 }
