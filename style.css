@@ -19,6 +19,7 @@ section
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    border: 10px solid rgb(79, 79, 79);
 }
 header
 {
