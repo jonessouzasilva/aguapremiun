@@ -276,8 +276,11 @@ header ul li a{
     transform: rotateY(180deg);
 }
 
-.assinatura
+main.assinatura
 {
-    margin-left: 10px;
-    color: rgb(34, 35, 32);
+    font-size: medium;
+    text-align: center;
+    position: center center;
+    text-decoration: overline;
+    text-shadow: 1px 1px 1px blue;
 }
