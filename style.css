@@ -280,7 +280,6 @@ main.assinatura
 {
     font-size: medium;
     text-align: center;
-    position: center center;
-    text-decoration: overline;
-    text-shadow: 1px 1px 1px blue;
+    position: center;
+    text-shadow: 1px 1px 1px black;
 }
