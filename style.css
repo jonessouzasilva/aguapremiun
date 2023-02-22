@@ -74,7 +74,7 @@ header ul li a{
 }
 .content .textBox h2 span
 {
-    color: #017143;
+    color: #070171;
     font-size: 1.2em;
     font-weight: 900;
 }
@@ -87,7 +87,7 @@ header ul li a{
     display: inline-block;
     margin-top: 20PX;
     padding: 8px 20px;
-    background: #017143;
+    background: #070171;
     color: #fff;
     border-radius: 40px;
     font-weight: 500;
@@ -96,7 +96,8 @@ header ul li a{
 }
 .content .imgBox
 {
-    width: 600px;
+    width: 100%;
+    right: 100%;
     display: flex;
     justify-content: flex-end;
     padding-right: 50px;
@@ -105,12 +106,12 @@ header ul li a{
 
 .content .imgBox img
 {   
-    max-width: 340px;
+    max-width: 100%;
 }
 .thumb
 {
     position: absolute;
-    left: 50%;
+    left: 30%;
     bottom: 20px;
     transform: translateX(-50%);
     display: flex;
@@ -129,9 +130,29 @@ header ul li a{
 }
 .thumb li img
 {
-    max-width: 60px;
+    max-width: 100%;
 }
-
+.sci
+{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sci li
+{
+    list-style: none;
+}
+.sci li a
+{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
 .circle
 {
     position: absolute;
@@ -140,7 +161,7 @@ header ul li a{
     width: 100%;
     height: 100%;
     background: #00a6ff;
-    clip-path: circle(600px at right 800px)
+    clip-path: circle(700px at right 800px)
 }
 
 main.assinatura
