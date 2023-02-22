@@ -8,20 +8,14 @@
 }
 section
 {
-    height: 100vh;
     position: relative;
-    max-width: 100%;
-    min-height: 1000px;
+    width: 100%;
+    min-height: 100vh;
     padding: 100px;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
-    background-color: aliceblue;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    border: 6px solid rgb(105, 105, 105);
-    border-radius: 0.8%;
+    background: #fff;
 }
 header
 {
@@ -29,7 +23,7 @@ header
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 80px;
+    padding: 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,12 +31,8 @@ header
 }
 header .logo
 {
-    line-height: 1.6em;
-    height: 110px;
-    border-radius: 50%;
-    position: absolute;
-    max-width: 250px; 
-    border: 1px solid rgb(0, 255, 179);
+    position: relative;
+    max-width: 80px;
 }
 
 header ul
@@ -55,19 +45,16 @@ header ul li
     list-style: none;
 }
 header ul li a{
-    display: inline-flex;
-    color: rgb(27, 35, 28);
+    display: inline-block;
+    color: #333;
     font-size: 20pt;
-    font-weight: 400px;
-    margin-left: 125px;
+    font-weight: 400;
+    margin-left: 40px;
     text-decoration: none;
 }
 .content
 {
-    font-weight: 600px;
-    font-size: 15pt;
-    margin-left: 100px;
-    position: absolute;
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -75,60 +62,56 @@ header ul li a{
 }
 .content .textBox
 {
-    line-height: 1.0em;
-    position: center;
-    max-width: 300px;
+    position: relative;
+    max-width: 600px;
 }
 .content .textBox h2
 {
-    margin-left: 200px;
-    color: rgb(34, 35, 32);
-    font-size: 2.9em;
-    line-height: 1.5em;
-    font-weight: 100px;
-    height: 100px;
-    left: 25%;
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
 }
 .content .textBox h2 span
 {
-    color: rgb(23, 98, 15);
-    font-size: 3.5em;
+    color: #017143;
+    font-size: 1.2em;
     font-weight: 900;
 }
-.content .textBox a
+.content .textBox p
 {
-    margin-left: 200px;
+    color: #333;
+}
+.content .textBox a 
+{
     display: inline-block;
-    margin-top: 420px;
+    margin-top: 20PX;
     padding: 8px 20px;
-    background: #0062ff;
+    background: #017143;
     color: #fff;
-    border-radius: 20px;
-    font-weight: 100;
+    border-radius: 40px;
+    font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
 }
 .content .imgBox
 {
-    width: 100px;
+    width: 600px;
     display: flex;
     justify-content: flex-end;
-    padding-right: 100px;
-    margin-top: 100px;
+    padding-right: 50px;
+    margin-top: 50px;
 }
 
 .content .imgBox img
 {   
-    max-width: 180px;
-    max-height: 100%;
-    background-size: cover;
+    max-width: 340px;
 }
-
 .thumb
 {
     position: absolute;
     left: 50%;
-    bottom: 50px;
+    bottom: 20px;
     transform: translateX(-50%);
     display: flex;
 }
@@ -146,7 +129,7 @@ header ul li a{
 }
 .thumb li img
 {
-    max-width: 100px;
+    max-width: 60px;
 }
 
 .circle
@@ -158,122 +141,6 @@ header ul li a{
     height: 100%;
     background: #00a6ff;
     clip-path: circle(600px at right 800px)
-}
-
-.container {
-    display: flex;
-    width: 100%;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.container .card {
-    position: relative;
-    padding: 10px;
-    width: 300px;
-    background-color: rgb(0, 183, 255);
-    margin: 20px;
-    border: 1px solid black;
-    border-radius: 20px;
-    overflow: hidden;
-    transition: 0.5s;
-    text-align: center;
-}
-
-.container .card img {
-    transition: 0.5s;
-}
-
-.container .card h1 {
-    font-size: 2rem;
-}
-
-.container .card .content {
-    padding: 20px;
-    text-align: center;
-}
-
-.container .card .content p {
-    color: #666;
-    transition: 0.5s;
-}
-
-.container .card .content a {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
-    border-radius: 40px;
-    text-decoration: none;
-    transition: 0.5s;
-    outline: none;
-    margin-top: 20px;
-}
-
-.container .card:hover {
-    background-color: aquamarine;
-    color: white;
-    margin-top: -30px;
-    box-shadow: 2px 20px 25px #0077ff;
-    border-color: aqua;
-}
-
-.container .card:hover img {
-    filter: invert(1);
-}
-
-.container .card:hover .content p {
-    color: white;
-}
-
-.container .card:hover .content a {
-    color: black;
-    background-color: white;
-}
-.rodape {
-    font-size: medium;
-    background-position: center center;
-    background-image: url(../aguapremiun/imagens/blue.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: beige;
-    width: 230px;
-    padding: 10px;
-    margin: auto;
-    border: 5px solid gray;
-    border-radius: 15px;
-    text-align: center;
-    perspective: 300px;
-    
-}
-.rodape__content
-{   
-    width: 200px;
-    height: 200px;
-    position: relative;
-    transform-style: preserve-3d;
-    transform: rotateY(0deg);
-    transition: transform 3000ms ease-in-out;
-}
-
-.rodape__front,
-.rodape__back
-{
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    backface-visibility: hidden;
-}
-.rodape__back
-{
-    transform: rotateY(180deg);
-}
-.rodape:hover .rodape__content
-{
-    transform: rotateY(180deg);
 }
 
 main.assinatura
