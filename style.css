@@ -171,3 +171,19 @@ main.assinatura
     position: center;
     text-shadow: 1px 1px 1px black;
 }
+@media(max-width: 800px) {
+    .section a{
+        min-width: 100%;
+    }
+}
+
+.content .textBox a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content .imgBox img {
+    max-width: 100px;
+}
+
