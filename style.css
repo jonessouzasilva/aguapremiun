@@ -106,7 +106,7 @@ header ul li a{
 
 .content .imgBox img
 {   
-    max-width: 100%;
+    max-width: 380px;
 }
 .thumb
 {
@@ -161,7 +161,7 @@ header ul li a{
     width: 100%;
     height: 100%;
     background: #00a6ff;
-    clip-path: circle(60% at right 120%)
+    clip-path: circle(600px at right 800px)
 }
 
 main.assinatura
@@ -171,19 +171,181 @@ main.assinatura
     position: center;
     text-shadow: 1px 1px 1px black;
 }
-@media(max-width: 800px) {
-    .section a{
-        min-width: 100%;
+@media (max-width:785px) {
+    section
+    {
+        position: relative;
+        max-width: 100%;
+        padding: 18px 20px;
+    }
+    header
+    {
+        width: 40%;
+        padding: 10px;
+        display: flex;
+        text-align: center;
+        
+    }
+    header .logo
+    {
+        position: fixed;
+        height: 100px;
+        max-width: 50%;
+        padding: 18px;
+        height: 100px;
+    }
+    
+    header ul
+    {
+        position: center;
+    }
+    header ul li
+    {
+        list-style: none;
+    }
+    header ul li a{
+        display: flex;
+        color: #333;
+        font-size: 15pt;
+        font-weight: 20;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    .content
+    {
+        position: center;
+        width: 100%;
+        padding-bottom: 50%;
+        height: 50px;
+    }
+    .content .textBox
+    {
+        position: fixed;   
+        max-width: 100%;
+        text-align: justify;
+        margin-left: -10px;
+        font-size: small;
+        font-weight: 500;
+        margin-bottom: 4rem;
+        line-height: 2rem;
+        border-radius: 10px;
+        padding-right: 15px 45px;
+        height: 50px;
+    }
+    .content .textBox h2
+    {
+        color: #333;
+        font-size: 1em;
+        line-height: 1em;
+        font-weight: 10;
+        margin-left: 10px;
+        align-items: center;
+        height: 50px;
+    }
+    .content .textBox h2 span
+    {
+        color: #070171;
+        font-size: 1em;
+        font-weight: 900;
+    }
+    .content .textBox p
+    {
+        color: #333;
+        text-align: left;
+    }
+    .content .textBox a 
+    {
+        display: inline-block;
+        margin-top: 50px;
+        padding: 8px 10px;
+        background: #070171;
+        color: #fff;
+        border-radius: 10px;
+        font-weight: 10;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .content .imgBox
+    {
+        width: 100%;
+        right: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 100px;
+        height: 100%;
+    }
+    
+    .content .imgBox img
+    {   
+        max-width: 500px;
+        align-items: 100%;
+        height: 200px;
+        position: absolute;
+        padding: 20px 0px;
+    }
+    .thumb
+    {
+        position: center;
+        align-items: center;
+        bottom: 120px;
+        transform: translateX(-50%);
+        display: flex;
+    }
+    .thumb li
+    {
+        list-style: none;
+        display: inline-block;
+        margin: 0 0px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .thumb li:hover
+    {
+        transform: translateY(-15px);
+    }
+    .thumb li img
+    {
+        max-width: 100%;
+    }
+    .sci
+    {
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sci li
+    {
+        list-style: none;
+    }
+    .sci li a
+    {
+        display: inline-block;
+        margin: 5px 0;
+        transform: scale(0.6);
+        filter: invert(1);
+    }
+    .circle
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #00a6ff;
+        clip-path: circle(800px at right 800px)
+    }
+    
+    main.assinatura
+    {
+        font-size: medium;
+        text-align: center;
+        position: center;
+        text-shadow: 1px 1px 1px black;
     }
 }
-
-.content .textBox a {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.content .imgBox img {
-    max-width: 100px;
-}
-
+    
