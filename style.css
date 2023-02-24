@@ -171,7 +171,7 @@ main.assinatura
     position: center;
     text-shadow: 1px 1px 1px black;
 }
-@media (max-width:785px) {
+@media (max-width:900px) {
     
     section {
         margin: 0;
