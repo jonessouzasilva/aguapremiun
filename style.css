@@ -172,8 +172,16 @@ main.assinatura
     text-shadow: 1px 1px 1px black;
 }
 @media (max-width:785px) {
-    section
-    {
+    
+    section {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        padding: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         width: 100%;
         position: relative;
         max-width: 100%;
